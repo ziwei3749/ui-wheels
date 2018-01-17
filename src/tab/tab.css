@@ -1,0 +1,39 @@
+.tabs ol {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.tabs .tabs-bar {
+    display: flex;
+
+}
+
+.tabs .tabs-bar li {
+    width: 200px;
+    text-align: center;
+    border-right: 1px solid #ccc;
+}
+
+.tabs .tabs-bar li:hover {
+    background: red;
+    border-bottom: none;
+}
+
+.tabs .tabs-bar li.active {
+    background: red;
+    border-bottom: none;
+}
+
+.tabs .tabs-content {
+    border-top: 1px solid #ccc;
+}
+
+.tabs .tabs-content li {
+    height: 100px;
+    display: none;
+}
+
+.tabs .tabs-content li.active {
+    display: block;
+}

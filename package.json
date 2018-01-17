@@ -1,0 +1,22 @@
+{
+  "name": "ui-component-wheels",
+  "version": "1.0.0",
+  "description": "ui轮子",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ziwei3749/ui-component-wheels.git"
+  },
+  "author": "吕子威",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ziwei3749/ui-component-wheels/issues"
+  },
+  "homepage": "https://github.com/ziwei3749/ui-component-wheels#readme",
+  "dependencies": {
+    "jquery": "^3.2.1"
+  }
+}

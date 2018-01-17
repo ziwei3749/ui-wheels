@@ -1,0 +1,54 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="stylesheet" href="./tab.css">
+</head>
+<body>
+<div class="tabs">
+    <ol class="tabs-bar">
+        <li>tab1</li>
+        <li>tab2</li>
+        <li>tab3</li>
+    </ol>
+    <ol class="tabs-content">
+        <li>content1</li>
+        <li>content2</li>
+        <li>content3</li>
+    </ol>
+</div>
+
+<div class="tabs">
+    <ol class="tabs-bar">
+        <li>tab1</li>
+        <li>tab2</li>
+        <li>tab3</li>
+    </ol>
+    <ol class="tabs-content">
+        <li>content1</li>
+        <li>content2</li>
+        <li>content3</li>
+    </ol>
+</div>
+
+<!--引入cdn的jQuery,也可以自己将jQuery下载到本地-->
+<script src="https://cdn.bootcss.com/jquery/3.2.1/jquery.js"></script>
+
+<!--构造函数的实现方法-->
+<script src="./tab.js"></script>
+
+<!--解开下面的注释,就可以用Class的实现方法,效果是一样的-->
+<!--<script src="./tab_class.js"></script>-->
+
+<script>
+
+//    使用tabs组件的方法
+    var tabs = new Tabs('.tabs')
+
+</script>
+</body>
+</html>

@@ -1,0 +1,33 @@
+.frank-dialog {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.5);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.frank-dialog .frank-dialog-wrapper {
+    background: #fff;
+    padding: 10px;
+    width: 200px;
+}
+
+.frank-dialog .frank-dialog-wrapper .frank-dialog-header {
+    border-bottom: 1px solid #000;
+}
+
+.frank-dialog .frank-dialog-wrapper .frank-dialog-content {
+    height: 70px;
+}
+
+.frank-dialog .frank-dialog-wrapper .frank-dialog-footer {
+    text-align: right;
+}
+
+.frank-dialog .frank-dialog-wrapper .frank-dialog-footer button{
+    margin-right: 10px;
+}

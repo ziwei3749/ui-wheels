@@ -1,0 +1,45 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="stylesheet" href="./dialog.css">
+</head>
+<body>
+<button class="btn">打开dialog</button>
+
+<script src="https://cdn.bootcss.com/jquery/3.2.1/jquery.js"></script>
+<script src="./dialog_class.js"></script>
+<!--<script src="./dialog.js"></script>-->
+<script>
+
+    $('.btn').click('on', function () {
+        var dialog = new Dialog({
+            title: '标题',
+            content: '内容',
+            buttons: [
+                {
+                    text: '确定',
+                    action: function () {
+                        alert('用户点击了确定')
+                        dialog.close()
+                    }
+                },
+                {
+                    text: '取消',
+                    action: function () {
+                        console.log(dialog);
+                        dialog.close()
+                    }
+                }
+            ]
+        })
+        dialog.open()
+    })
+
+</script>
+</body>
+</html>
