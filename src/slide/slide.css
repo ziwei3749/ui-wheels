@@ -1,0 +1,30 @@
+.frank-slide {
+    overflow: hidden;
+    position: relative;
+}
+
+.frank-slide ol {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    transition: transform 0.5s;
+}
+
+.frank-slide .frank-slide-prev-btn {
+    position: absolute;
+    top: 50%;
+    left: 10px;
+    transform: translateY(-50%);
+}
+
+.frank-slide .frank-slide-next-btn {
+    position: absolute;
+    top: 50%;
+    right: 10px;
+    transform: translateY(-50%);
+}
+
+.frank-slide .frank-slide-btn.hide {
+    display: none;
+}
